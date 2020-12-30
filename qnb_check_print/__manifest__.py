@@ -26,6 +26,7 @@
     'data': [
         # 'security/ir.model.access.csv',
         'report/print_check.xml',
+        'data/data.xml',
     ],
 
 }
