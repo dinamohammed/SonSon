@@ -33,10 +33,10 @@
         
 <!--         Remove tables in check print out of qnb  -->
         <template id="qnb_check_top_custom" name="qnb check assets call" inherit_id="l10n_us_check_printing.print_check_top">
-            <xpath expr="//div/t[2]" position="replace">
+            <xpath expr="/template/t/t/div/t[2]" position="replace">
 <!--                 Just removed -->
             </xpath>
-            <xpath expr="//div/t[3]" position="replace">
+            <xpath expr="/template/t/t/div/t[3]" position="replace">
 <!--                 just removed -->
             </xpath>
         </template>
